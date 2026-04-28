@@ -4,4 +4,3 @@ Project Music finder: This programs main function is to find a song based on lyr
 -finding the top three songs by an artist 
 -automatically updating the top 100 songs according the Billboard's charts 
 -speech recognition for user inputs 
--it can even calculate a rating based on how similar real lyrics are to those input
