@@ -1,7 +1,20 @@
 # Music Finder IT 170 
 Authors: Alan, Caleb, Jacob, and Jonathan
-Project Music finder: This programs main function is to find a song based on lyrics input by the user. This program has many added functionalities such as 
--finding the top three songs by an artist 
--automatically updating the top 100 songs according the Billboard's charts 
--speech recognition for user inputs 
+Project Music finder: The main function of this program is identifying a song based on lyrics input by users. It integrates many features such as Billboard chart data, Genius API validation, and speech recognition. 
+
+# Features
+-Search songs using lyrics input by user
+-Finding the top three songs by an artist 
+-Stores lyrics from Genius webpages
+-Retrieves the top 100 songs from Billboard Top 100
+-Automatically updates stored top 100 songs weekly
+-Speech recognition for user inputs 
 -Finding and printing the Album or song cover of a song.
+
+#Project Structure
+- List_of_Songs/ - Stores song lyrics
+- Song_Info - Stores song data(artist, title, album)
+- data.json - Serves as link between songs and info / lyric files
+- loading_Songs.jpynb - Pulls and updates song data
+- Structure.jpynb - Handles main program logic
+- access_token.txt - Stores Genius api key
